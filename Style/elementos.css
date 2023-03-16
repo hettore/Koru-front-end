@@ -1,0 +1,50 @@
+/* Seletor de elementos com a tag */
+body {
+
+}
+
+h1 {
+    color: white;
+}
+
+/* Seletor de elementos com ID Importancia maxima */
+h1#alguma {
+    color: red;
+}
+
+/* Seletor de elemento com classe */
+.modelo {
+
+}
+
+/* Slelecionar elemento dentro da hierarquia com espaço */
+.modelo h1 {
+    color: blue;
+}
+
+/* Acessando links que estejam dentro de <p> que estejam dentro de <section> */
+section p a {
+
+}
+
+/* Acessando <a> e <p> que estejam dentro de <section>, separando com virgula*/
+section a, section p {
+
+}
+
+/* Sekletor de elemento com mais uma classe, para diferenciar */
+.modelo.destaque {
+
+}
+
+/* Seletor de atributos html */
+a[target="_blank"] { /* Que seja igual */
+
+}
+a[href^="https"] { /* Começa com */
+
+}
+a[href-="https"] { /* Caso contenha */
+
+}
+

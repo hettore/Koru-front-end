@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    /* Fazer com que os tamanhos (width e height) incluam o configurado do padding (espaçamento interno)*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+    font-size: 28px;
+    background-color: green;
+    display: block;
+}
+
+h2 {
+    background-color: red;
+
+}
+
+p {
+    font-size: 14px;
+    text-align: right;
+    line-height: 1.3;
+}
+
+a{
+    text-decoration: none; /* Tirar as estilizações */
+    background-color: red;
+    /* por padrão é display inline */
+    display: inline-block;
+    width: 100%;
+    
+}
+
+section {
+    background-color: #cacaca;
+    height: 400px; /* altura */
+    width: 100%; /* largura */
+    max-width: 800px;
+    min-width: 300px;
+    padding: 40px; /* Espaçamento interno */
+    /*margin: 40px 20px; /* Espaçamento externo cima baixo direita esquerda */
+    /*
+    margin-top: 40px;
+    margin-bottom: 40px;
+    */
+    margin: 40px;
+}
+
+/* Display inline: o elemento ocupa o tamanho  */
+/* Display block: o elemento ocupa toda a largura disponivel na pagina mesmo que não precise  */
+/* Display inline-block: igual ao inline mas voce pode dar um tamanho pra ele  */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+    background-color: green;
+}
+
+
+
