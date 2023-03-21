@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #bbbbbb;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 16px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section, article{
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    background-color: #cacaca;
+    vertical-align: top;
+    padding: 24px;
+    min-height: 400px;
+}
+
+img{
+    width: 100%;
+    
+}
